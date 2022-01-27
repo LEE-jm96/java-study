@@ -1,4 +1,8 @@
-package codingTest;
+/* 코딩 테스트 공부 - 4
+ * 구매한 로또에 0이 들어있습니다.
+ * 0이 들어간 번호가 정답일 때와 아닐 때로 구분합니다.
+ * 전부 정답일 때 최고 순위, 정답이 아닐 때 최저 순위를 리턴합니다.
+ */
 
 class Solution4{
 	public int[] solution(int[] lottos, int[] win_nums) {
