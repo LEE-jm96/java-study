@@ -6,14 +6,14 @@
 package codingTest;
 public class Solution3 {
 	public static String solution(String[] seoul) {
-        String answer = "";
-        for(int i = 0; i < seoul.length; i++){
-            if(seoul[i].equals("Kim")){
-                answer = "±è¼­¹æÀº " + i + "¿¡ ÀÖ´Ù";
-            }
-        }
-        return answer;
-    }
+        	String answer = "";
+        	for(int i = 0; i < seoul.length; i++){
+            		if(seoul[i].equals("Kim")){
+                		answer = "±è¼­¹æÀº " + i + "¿¡ ÀÖ´Ù";
+            		}
+        	}
+        	return answer;
+    	}
 	
 	public static void main(String [] args) {
 		String arr[] = {"Lee", "Jane", "Kim"};
