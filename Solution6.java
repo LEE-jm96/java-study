@@ -16,7 +16,7 @@ public class Solution6 {
     }
     
     public static void main(String[] args) {
-		int arr[] = {5, 8, 4, 9, 6, 7, 0};
-		System.out.println(solution(arr));
-	}
+	    int arr[] = {5, 8, 4, 9, 6, 7, 0};
+	    System.out.println(solution(arr));
+    }
 }
