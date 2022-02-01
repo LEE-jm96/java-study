@@ -6,24 +6,25 @@
 
 package codingTest;
 
-public class Solution8 {
-    public static int solution(int n) {
-        int answer = 0, num = 0;
-        for(int i = 1;  i <= n; i++){
-            for(int j = 1;  j <= i; j++){
+public class Solution {
+    public int solution(int n) {
+        int answer = 0;
+        boolean flag;
+        for(int i = 2; i <= n; i++){
+            flag = true;
+            for(int j = 2; j <= Math.sqrt(i); j++){
                 if(i % j == 0){
-                    num++;
+                    flag = false;
+                    break;
                 }
             }
-            if(num == 2){
-                answer++;
-            }
-            num = 0;
+            if(flag == true){ answer++; }
         }
         return answer;
     }
+}
     
     public static void main(String[] args) {
 		System.out.println(solution(10));
-	}
+    }
 }
